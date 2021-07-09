@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "peerjs --port PORT"
+    "start": "startPeer",
+    "startPeer":"peerjs --port $PORT"
   },
   "author": "",
   "license": "ISC",
