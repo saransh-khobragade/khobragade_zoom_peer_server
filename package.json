@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"PORT=node -e 'process.env.PORT' && peerjs --port PORT"
+    "start":"peerjs --port 9000"
   },
   "author": "",
   "license": "ISC",
