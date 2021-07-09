@@ -59,6 +59,9 @@ function PeerServer(options: Optional<IConfig> = {}, callback?: (server: Server)
   const peerjs = ExpressPeerServer(server, newOptions);
   app.use(peerjs);
 
+  console.log('port',port)
+  console.log('host',host)
+
   server.listen(port, host, () => callback?.(server));
 
   return peerjs;
