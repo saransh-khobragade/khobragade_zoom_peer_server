@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js && peerjs --port $TESTPORT"
+    "start":"node index.js && peerjs --port node -e 'process.env.PORT'"
   },
   "author": "",
   "license": "ISC",
