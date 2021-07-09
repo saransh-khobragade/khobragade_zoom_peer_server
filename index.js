@@ -1,1 +1,1 @@
-const serverPort = process.env.PORT;
+process.env['TESTPORT'] = process.env.PORT

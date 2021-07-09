@@ -1,1 +1,1 @@
-peer
+peerjs --port process.env.PORT
