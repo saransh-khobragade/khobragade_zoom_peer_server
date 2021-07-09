@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "startPeer",
-    "startPeer":"peerjs --port $PORT"
+    "start":"PORT=$(grep PORT .env | cut -d '=' -f2) peerjs --port $PORT"
   },
   "author": "",
   "license": "ISC",
