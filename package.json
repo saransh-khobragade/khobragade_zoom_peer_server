@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"PORT=`echo $PORT` yarn peer",
+    "start":"PORT=`echo $PORT` npm run peer",
     "peer": "peerjs --port $PORT"
   },
   "author": "",
