@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"peerjs --port 9000"
+    "start":"PORT=`echo $PORT` yarn peer",
+    "peer": "peerjs --port $PORT"
   },
   "author": "",
   "license": "ISC",
